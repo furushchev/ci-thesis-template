@@ -2,19 +2,17 @@
 LaTeX Template of Thesis at Creative Informatics
 
 ```
-.
-├── LICENSE
-├── Makefile
-├── OMakefile
-├── OMakeroot
-├── README.md
 ├── cimt.cls
 ├── figs
-│   ├── dj.jpg
+│   ├── dj.jpg
 │   ├── fig.eps
 │   └── nowprinting.eps
+├── latexmkrc
+├── LICENSE
 ├── main.bib
 ├── main.tex
+├── Makefile
+├── README.md
 └── src
     ├── ack.tex
     ├── appendix.tex
@@ -29,23 +27,15 @@ LaTeX Template of Thesis at Creative Informatics
 # How to use
 
 1. Edit Tex files
+
 2. Compile to draft pdf
 
-  ```
-make
-```
-3. Publish as release pdf
+    ```
+    make
+    ```
 
-  ```
-make publish
-```
-4. Show error only
+3. Show todo
 
-  ```
-make quiet
-```
-5. Show todo
-
-  ```
-make todo
-```
+    ```
+    make todo
+    ```
